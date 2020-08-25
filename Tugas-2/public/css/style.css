@@ -48,6 +48,10 @@ ul li li:active{
     width: 200px;
     height: auto;
 }
+#article-list a{
+    text-decoration: none;
+    color: black;
+} 
 
 footer{
     background-color: #95e2f5;
