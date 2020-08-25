@@ -3,12 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hubungi Kami</title>
-</head>
-<body>
-    <h1>Hubungi Kami</h1>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet" />
+    <title>Sanbercode</title>
 
-    <h1>Kirimkan Pesan</h1>
+</head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="public/img/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>  
+            </div>
+        </header>
+        <div class="container">
+
+            <h1>Hubungi Kami</h1>
+            <p>kantor:</p>
+            <p>No Telepon:</p>
+            <p>Email:</p>
+        
+            <form action="">
+                <h1>Kirimkan Pesan</h1>
+                <label for="nama">Nama :</label>
+                <input type="text" placeholder="Masukan nama"> <br><br>
+                <label for="email">Email :</label>
+                <input type="email" placeholder="masukan email"><br><br>
+                <p>Jenis Kelamin :</p>
+                <input type="radio" name="gender">Laki-laki
+                <input type="radio" name="gender">Perempuan <br>
+                <label for="pesan_user">Pesan Anda</label>
+                <textarea name="" id="pesan_user" cols="30" rows="10"></textarea> <br>
+        
+                <input type="submit" value="Kirim"><br>
+            </form>
+        </div>
+
+    <footer>
+        <h5>copyright &copy; 2020 by Sanbercode</h5>
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,55 @@
+body{
+    font: 15px/1.5  Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../img/pattern.jpg);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    padding-top: 30px ;
+    min-height: 70px;
+    background: #95e2f5;
+    border-bottom: tomato 3px solid;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:1c6bd1;
+    padding: 5px 20px;
+    border: 1px solid #1c6bd1;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #1c6bd1;
+    color: #ffffff;
+}
+ul li li:active{
+    background-color: #1c6bd1;
+    color: #fffefe;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    background-color: #95e2f5;
+    text-align: center;
+}
