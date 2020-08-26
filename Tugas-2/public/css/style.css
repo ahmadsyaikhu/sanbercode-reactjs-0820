@@ -54,6 +54,13 @@ ul li li:active{
 } 
 
 footer{
+    display: flex;
     background-color: #95e2f5;
     text-align: center;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
