@@ -50,3 +50,5 @@ var tanggal = 22;
 var bulan = 7;
 var tahun = 2020;
 // ....jawaban soal 5
+
+
