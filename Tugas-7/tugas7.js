@@ -21,7 +21,7 @@ class Ape extend Animal {
     }
   
     yell() {
-      console.log("AAUUOOO")
+      return "AAUUUOOO"
     }
 
 }
@@ -31,7 +31,7 @@ class Frog extend Animal {
         this._frog = frog;
     }
     jump () {
-        this._name + "HOP HOP HOP"
+        return "HOP HOP HOP"
    }
 }
 
@@ -46,6 +46,7 @@ sungokong.yell();
 
 let kodok = new Frog("buduk")
 kodok.jump();
+
 
 console.log("---SOAL 2---");
 
