@@ -17,7 +17,7 @@ class Animal {
 class Ape extend Animal {
     constructor (name){
         super (name);
-        this._frog = frog;
+        this._ape = ape;
     }
   
     yell() {
@@ -86,4 +86,4 @@ class Clock {
 }
 
 let clock = new Clock({ template: "h:m:s" });
-// clock.start();
+clock.start();
